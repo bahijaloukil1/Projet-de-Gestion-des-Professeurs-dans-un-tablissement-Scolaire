@@ -1,0 +1,28 @@
+[07-May-2025 02:15:36 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 18
+[07-May-2025 02:15:36 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 28
+[07-May-2025 02:15:36 Europe/Berlin] PHP Warning:  session_name(): Session name cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 32
+[07-May-2025 02:15:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "DB_HOST" in C:\xampp\htdocs\gestion_professeurs\gestion_modules.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gestion_professeurs\gestion_modules.php on line 26
+[07-May-2025 02:18:53 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 13
+[07-May-2025 02:18:53 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 15
+[07-May-2025 02:18:53 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 16
+[07-May-2025 02:18:53 Europe/Berlin] PHP Warning:  session_name(): Session name cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 19
+[07-May-2025 02:19:54 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 13
+[07-May-2025 02:19:54 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 15
+[07-May-2025 02:19:54 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 16
+[07-May-2025 02:19:54 Europe/Berlin] PHP Warning:  session_name(): Session name cannot be changed when a session is active in C:\xampp\htdocs\gestion_professeurs\config.php on line 19
+[07-May-2025 02:21:40 Europe/Berlin] [2025-05-07 02:21:40] Database error: Configuration de base de données incomplète
+[07-May-2025 02:21:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ENVIRONMENT" in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php:83
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php on line 83
+[07-May-2025 02:30:23 Europe/Berlin] [2025-05-07 02:30:23] Database error: Configuration de base de données incomplète
+[07-May-2025 03:06:06 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php on line 14
+[07-May-2025 03:06:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PASSWORD" in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php on line 40
+[07-May-2025 03:09:12 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\gestion_professeurs\affectation_ue.php on line 14
+[07-May-2025 03:09:12 Europe/Berlin] DB Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_affectations.chok_professeurs' doesn't exist

@@ -1,0 +1,16 @@
+=== Nouvelle tentative de redirection ===
+Date: 2025-05-19 23:56:08
+SESSION: Array
+(
+    [user_id] => 14
+    [email] => dad@gmail.com
+    [user_type] => coordinateur
+    [nom] => El hamdani
+    [prenom] => Fatima Zahra
+    [id_departement] => 1
+    [id_specialite] => 11
+    [redirect_from] => login_coordinateur.php - section 5
+)
+
+Type d'utilisateur: coordinateur
+Redirection vers dashborde_coordinateur.php

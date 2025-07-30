@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Relevé de Notes - Session Normale</title>
+            <style>
+            :root {
+                --primary-blue: #1E90FF;
+                --primary-magenta: magenta;
+                --blue-transparent: rgba(30, 144, 255, 0.3);
+            }
+            body {
+                font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+                margin: 20px;
+                color: #333;
+                background-color: #f9f9f9;
+            }
+            h1, h2 {
+                text-align: center;
+                color: var(--primary-blue);
+            }
+            h1 {
+                font-size: 28px;
+                margin-bottom: 5px;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            }
+            h2 {
+                font-size: 20px;
+                margin-top: 5px;
+                color: #555;
+            }
+            .header {
+                margin-bottom: 30px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid var(--primary-magenta);
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                border-radius: 5px;
+                overflow: hidden;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: center;
+            }
+            th {
+                background-color: var(--primary-blue);
+                color: white;
+                font-weight: bold;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            tr:hover {
+                background-color: #e9f5ff;
+            }
+            .footer {
+                margin-top: 50px;
+                text-align: right;
+                color: #555;
+                font-style: italic;
+                border-top: 1px solid #ddd;
+                padding-top: 15px;
+            }
+            .signature-line {
+                display: inline-block;
+                width: 200px;
+                border-bottom: 1px solid #555;
+                margin-left: 10px;
+            }
+            @media print {
+                body {
+                    margin: 0;
+                    background-color: white;
+                }
+                button { display: none; }
+                .header {
+                    border-bottom-color: #333;
+                }
+            }
+        </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Relevé de Notes</h1>
+                <h2>Session: Normale</h2>
+                <h2>Unité d'Enseignement: Alogorime</h2>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID Étudiant</th>
+                        <th>Nom Étudiant</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>11</td>
+                        <td>Benali Sara</td>
+                        <td>14.00</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>El Idrissi Omar</td>
+                        <td>12.00</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Mouhssine Lina</td>
+                        <td>16.00</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Ouahbi Youssef</td>
+                        <td>10.00</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Tahiri Rania</td>
+                        <td>7.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="footer">
+                <p>Document généré le 27/05/2025</p>
+                <p>Signature de l'enseignant: <span class="signature-line"></span></p>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <button onclick="window.print()">Imprimer ce document</button>
+            </div>
+
+            <script>
+                // Imprimer automatiquement
+                window.onload = function() {
+                    window.print();
+                };
+            </script>
+        </body>
+        </html>
